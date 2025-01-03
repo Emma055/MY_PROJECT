@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="contact-page">
+
+  
+<header class="header">
+  <!--  <a href="#" class="logo"><img src="/images/logo.jpg" alt="GameZone Logo"></a>-->
+
+    <nav class="navbar">
+        <a href="index.html" >Home</a>
+        <a href="about.html" >About</a>
+        <a href="games.html">Games</a>
+        <a href="review.html">Review</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <button>Join now</button>
+</header>
+
+<section class="hero-contact">
+    <h1>
+        Get in touch
+    </h1>
+    <p>
+        We'd love to here from you.
+    </p>
+
+</section>
+
+<section class="signup-section">
+    <h2>Sign Up</h2>
+    <p>Join our community to stay updated with the latest in gaming.</p>
+    
+    <form action="#" method="POST" class="signup-form">
+      <!-- Name -->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      
+      <!-- Email -->
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required>
+      
+      <!-- Confirm Password -->
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+      
+      <!-- Gender (Radio Buttons) -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+      
+      <!-- Gaming Preferences (Checkbox) -->
+      <p>Gaming Preferences:</p>
+      <input type="checkbox" id="action" name="preference" value="Action">
+      <label for="action">Action</label>
+      <input type="checkbox" id="strategy" name="preference" value="Strategy">
+      <label for="strategy">Strategy</label>
+      <input type="checkbox" id="rpg" name="preference" value="RPG">
+      <label for="rpg">RPG</label>
+      
+      <!-- Submit Button -->
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+  
+
+  
+  <footer id="footer">
+    <p>&copy; 2025 GameZone. All rights reserved.</p>
+    <div class="game-socials">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </div>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
